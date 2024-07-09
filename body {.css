@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.input-area textarea {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #007bff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.buttons button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-encrypt {
+    background-color: #007bff;
+}
+
+.button-encrypt:hover {
+    background-color: #0056b3;
+}
+
+.button-decrypt {
+    background-color: #28a745;
+}
+
+.button-decrypt:hover {
+    background-color: #218838;
+}
+
+.button-copy {
+    background-color: #6c757d;
+}
+
+.button-copy:hover {
+    background-color: #5a6268;
+}
+
+.output-area {
+    background-color: #e9ecef;
+    border: 2px dashed #6c757d;
+    padding: 10px;
+    border-radius: 4px;
+    height: 150px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
